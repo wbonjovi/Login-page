@@ -1,0 +1,72 @@
+$color : #5AC0CE;
+$back-color : #EEF0F4;
+header
+{
+  background-color: $color;
+  position: relative;
+  padding:1em;
+  color:white;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: $back-color;
+}
+  div
+  {
+    margin: 0.1em 0 0.1em 0;
+    height:5%;
+      .image
+    {
+      float: left;
+    }
+      .bar
+    {
+      height:100%;
+      padding: 0.1em;
+      background-color: $back-color;
+      display:inline;
+    }
+    img
+    {
+      height: 1.5rem;
+    }
+    a
+    {
+      color: $color;
+    }
+    input
+    {
+      height: 2rem;
+      width: 50%;
+      font-size: 0.5em ;
+      border:0;
+      outline:none;
+    }
+  }
+  button
+  {
+    width:  100%;
+    background-color: $color;
+    position: relative;
+    padding:1.5em;
+    color:white;
+    text-align: center;
+    border:0;
+  }
+  .left
+  {
+    float: left;
+  }
+  .right
+  {
+    float: right;
+  }
+  .center
+  {
+    padding: 1em;
+    background-color: white;
+    overflow:hidden;
+  }
+
